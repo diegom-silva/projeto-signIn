@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+}
+
+html {
+    background-color: #EBEBEB;
+    font-size: 62.5%;
+}
+
+.form-container {
+    background-color: #fff;
+    margin: 150px auto;
+    width: 40rem;
+}
+
+form {
+    padding: 2.5rem;
+}
+
+form h3 {
+    text-align: center;
+}
+
+form .input-container {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+form .input-container input,
+input[type="submit"] {
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 2.5rem;
+}
+
+form input[type="submit"] {
+    border: 0;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form .input-container input {
+    border: 1px solid #E4E4E4;
+    color: #818181;
+    padding: 0 5.5rem 0 2.5rem;
+}
+
+form .input-container input::placeholder {
+    color: #818181;
+}
+
+form .input-container svg {
+    position: absolute;
+    right: 2rem;
+    top: calc(50% - 1.2rem);
+    color: #818181;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin: 2rem auto;
+    color: #818181;
+}
+
+a {
+    color: red;
+}
+
+form p {
+    color: #818181;
+    text-align: center;
+}
+
+form .social-media-container {
+    display: flex;
+    justify-content: center;
+}
+
+form .social-media-container .icon-container {
+    background-color: red;
+    margin: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+form .social-media-container .icon-container svg {
+    position: absolute;
+    left: calc(50% - 1.2rem);
+    bottom: calc(50% - 1.2rem);
+    color: white;
+}
+
+form .social-media-container .icon-container:nth-child(1) {
+    background-color: #375C98;
+}
+
+form .social-media-container .icon-container:nth-child(2) {
+    background-color: #C54F33;
+}
+
+form .social-media-container .icon-container:nth-child(3) {
+    background-color: #4DADF2;
+}
+
+hr {
+    color: #818181;
+}
+
+form .footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 2rem;
+}
